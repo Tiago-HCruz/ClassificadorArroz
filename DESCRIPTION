@@ -12,7 +12,6 @@ Depends:
     R (>= 4.3.3)
 Imports:
     RSQLite (>= 2.3.2),
-    DBI (>=1.2.2),
     tidyverse (>= 2.0.0),
     farff (>= 1.1.1)
     
