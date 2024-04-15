@@ -21,7 +21,6 @@ if(!"DB_Base" %in% dbListTables(conexao_sql)){
   )
 }
 
-
 #dbExecute(conexao_sql, paste("DROP TABLE DB_Base"))
 
 #usethis::use_data_raw("Rice_db") #Cria um R script em data-raw
