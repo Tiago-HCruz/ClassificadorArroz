@@ -4,4 +4,4 @@ Para esse pacote, foi utilizada o banco de dados "Rice (Cammeo and Osmancik)" qu
 
 Rice (Cammeo and Osmancik). (2019). UCI Machine Learning Repository. https://doi.org/10.24432/C5MW4Z.
 
-<a href="https://doi.org/10.24432/C5MW4Z" target="_blank"></a>
+<a href="https://doi.org/10.24432/C5MW4Z" target="_blank">https://doi.org/10.24432/C5MW4Z</a>
