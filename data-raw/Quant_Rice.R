@@ -1,8 +1,9 @@
 ## code to prepare `Quant_Rice` dataset goes here
 library(DBI)
 library(RSQLite)
+library(tidyverse)
 
-Server_Rice()
+source("data-raw/Server.R")
 
 if(!"DB_Quantidade" %in% dbListTables(conexao_sql)){
   dbWriteTable(
@@ -37,4 +38,6 @@ if(!"DB_Quantidade" %in% dbListTables(conexao_sql)){
   dbGetQuery(conexao_sql, myquery)
 }
 
-#usethis::use_data(Quant_Rice, overwrite = TRUE)
+Quant_Rice <- tbl(conexao_sql, "DB_Quantidade") |> as_tibble()
+
+usethis::use_data(Quant_Rice, overwrite = TRUE)

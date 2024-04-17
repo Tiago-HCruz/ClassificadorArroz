@@ -1,4 +1,5 @@
-## code to prepare `db_teste_treino` dataset goes here
+library(RSQLite)
+library(tidyverse)
 
 DB_T <- DB_Treino_Teste(2024, DB_Rice('DB_Base'), 0.8, 0.2)
 
@@ -19,4 +20,9 @@ if(!"DB_Teste" %in% dbListTables(conexao_sql)){
     value = DB_T$test
   )
 }
-#usethis::use_data(db_teste_treino, overwrite = TRUE)
+
+Rice_Treino <- DB_T$train
+Rice_Teste <- DB_T$test
+
+usethis::use_data(Rice_Treino, overwrite = TRUE)
+usethis::use_data(Rice_Teste, overwrite = TRUE)
