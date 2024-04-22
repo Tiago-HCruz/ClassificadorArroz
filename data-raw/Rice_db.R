@@ -25,7 +25,9 @@ if(!"DB_Base" %in% dbListTables(conexao_sql)){
 
 #usethis::use_data_raw("Rice_db") #Cria um R script em data-raw
 
-DB_Base <- tbl(conexao_sql, "DB_Base") |> as_tibble()
+DB_Base <- tbl(conexao_sql, "DB_Base") |>
+  as_tibble() |>
+  mutate(Classe = as.factor(Classe))
 
 usethis::use_data(DB_Base, overwrite = TRUE)
 
