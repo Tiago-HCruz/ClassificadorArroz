@@ -24,7 +24,9 @@ DB_Rice <- function(Banco_de_dados){
     dbname = "Banco_de_Dados/Rice.sqlite"
   )
 
-  return(tbl(conexao_sql, Banco_de_dados) |> as_tibble())
+  return(tbl(conexao_sql, Banco_de_dados) |>
+           as_tibble() |>
+           mutate(Classe = as.factor(Classe)))
 
   dbDisconnect(conexao_sql)
 }
