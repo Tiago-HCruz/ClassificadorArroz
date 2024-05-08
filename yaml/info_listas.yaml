@@ -3,3 +3,9 @@ Tabelas:
   - DB_Teste
   - DB_Treino
   - DB_Quantidade
+Variaveis:
+  - Classe
+  - Area
+  - Perimetro
+  - Maior_Comprimento
+  - Excentricidade

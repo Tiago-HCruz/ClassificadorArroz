@@ -29,6 +29,6 @@ Banco de dados treino e teste. Alias, vale reparar que deve-se definir a
 porcentagem de dados base deve ser colocadas nos dois subconjunto de dados.
 }
 \examples{
-DB_Treino_Teste(2024, Rice_Base() |> head(50), 0.8, 0.2)
+DB_Treino_Teste(2024, DB_Base |> head(50), 0.8, 0.2)
 
 }

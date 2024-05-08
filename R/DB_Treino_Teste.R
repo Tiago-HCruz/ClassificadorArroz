@@ -31,8 +31,8 @@ DB_Treino_Teste <- function(semente, df, porc_train, porc_test){
   training <- df[ind==1,]
   testing <- df[ind==2,]
 
-  return(list(train = training,
-              test = testing))
+  return(list(Treino = training,
+              Teste = testing))
 
 }
 
