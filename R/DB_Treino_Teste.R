@@ -18,7 +18,7 @@
 #'
 #' @return Retorna uma lista que contém dois banco de dados, treino e teste.
 #'
-#' @examples DB_Treino_Teste(2024, Rice_Base() |> head(50), 0.8, 0.2)
+#' @examples DB_Treino_Teste(2024, DB_Base |> head(50), 0.8, 0.2)
 #'
 
 DB_Treino_Teste <- function(semente, df, porc_train, porc_test){
@@ -32,7 +32,9 @@ DB_Treino_Teste <- function(semente, df, porc_train, porc_test){
   testing <- df[ind==2,]
 
   return(list(train = training,
-              test = testing))}
+              test = testing))
+
+}
 
 
 
