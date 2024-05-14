@@ -3,31 +3,31 @@ library("MASS")
 library(ClassificadorArroz)
 
 
-Rice_ <- DB_Treino_Teste(2024, DB_Base, 0.8, 0.2)
+#Rice_ <- DB_Treino_Teste(2024, DB_Base, 0.8, 0.2)
 
 #### QDA
 
 #attach(Rice)
 
-modelo_analise <- qda(Classe ~ ., data= Rice_$train, CV = F)
+modelo_analise <- qda(Classe ~ ., data= Rice_Teste, CV = F)
 
 #  plot(modelo_analise)
 
-modelo_analise$means
+#modelo_analise$means
 
 modelo_predict <- predict(modelo_analise,
-                          Rice_$test |>
+                          Rice_Teste |>
                             dplyr::select(-Classe))
 
 qda.class <- modelo_predict$class
 
-tab1 <- table(qda.class, Rice_$test$Classe)
+tab1 <- table(qda.class, Rice_Teste$Classe)
 
-tab1
+#tab1
 
-round((sum(diag(tab1))/sum(tab1)*100),2)
+Acuracia_QDA <- round((sum(diag(tab1))/sum(tab1)*100),2)
 
-klaR::partimat(Classe~., data=Rice_$train, method="qda",
-               plot.matrix = TRUE#, imageplot = FALSE
-)
+#klaR::partimat(Classe~., data=Rice_Treino, method="qda",
+#               plot.matrix = TRUE#, imageplot = FALSE
+#)
 
