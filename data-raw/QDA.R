@@ -21,7 +21,7 @@ modelo_predict <- predict(modelo_analise,
 
 qda.class <- modelo_predict$class
 
-tab1 <- table(qda.class, Rice_Teste$Classe)
+tab2 <- table(qda.class, Rice_Teste$Classe)
 
 #tab1
 
