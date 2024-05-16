@@ -11,11 +11,15 @@ Acuracia <- tibble(LDA = Acuracia_LDA,
 
 tab1 <- tab1 |>
   as.data.frame.matrix() |>
-  as_tibble()
+  as_tibble() |>
+  mutate(LDA_Predita = c("Cammeo", "Osmancik")) |>
+  dplyr::select("LDA_Predita", "Cammeo", "Osmancik")
 
 tab2 <- tab2 |>
   as.data.frame.matrix() |>
-  as_tibble()
+  as_tibble() |>
+  mutate(LDA_Predita = c("Cammeo", "Osmancik")) |>
+  dplyr::select("LDA_Predita", "Cammeo", "Osmancik")
 
 tab_LDA <- tab1
 tab_QDA <- tab2

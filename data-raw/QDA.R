@@ -23,11 +23,13 @@ qda.class <- modelo_predict$class
 
 tab2 <- table(qda.class, Rice_Teste$Classe)
 
-#tab1
+#tab2
 
-Acuracia_QDA <- round((sum(diag(tab1))/sum(tab1)*100),2)
+#Rice_Treino <- Rice_Treino |>
+#  mutate(Classe = as.factor(Classe))
+
+Acuracia_QDA <- round((sum(diag(tab2))/sum(tab2)*100),2)
 
 #klaR::partimat(Classe~., data=Rice_Treino, method="qda",
-#               plot.matrix = TRUE#, imageplot = FALSE
-#)
+#               plot.matrix = TRUE)
 
