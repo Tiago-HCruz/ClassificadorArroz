@@ -26,3 +26,10 @@ Nesse pacote foi criado funções para auxiliar na analise dos modelos a classif
 * **Server_Rice:** Uma função que abre o servidor SQL que por sua vez, existe diversos banco de dados sobre o Arroz.
 
 ## Exemplos
+No pacote pode se encontrar exemplos para auxiliar ou mesmo motivar em algumas ideias.
+
+* **Quant_Rice:** Quantidade de Arroz no banco de dados geral, treino e teste.
+* **Rice_Teste:** Banco de dados teste, utilizado para modelar de acordo com a método. Para obter, foi utilizado a semenente "2024" retirado aleatoriamente 20% dos dados original. 
+* **Rice_Treino:** Banco de dados treino, utilizado para obter resultado apartir do modelagem feito no banco de dados teste. Para obter, foi utilizado a semenente "2024" retirado aleatoriamente 80% dos dados original, vale ressaltar que as observações não se repeter do banco de dados teste. 
+* **tab_LDA:** Matriz confusão do modelo Analise Discriminante Linear.
+* **tab_QDA:** Matriz confusão do modelo Analise Discriminante Quadratica.
