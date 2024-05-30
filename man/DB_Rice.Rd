@@ -6,15 +6,18 @@
 \usage{
 DB_Rice(Banco_de_dados)
 }
+\arguments{
+\item{Banco_de_dados:}{Banco de dados que queria ler do Servidor SQL do pacote.}
+}
 \value{
 Retorna um banco de dados.
 }
 \description{
-Carrega um Banco de dados que estão armazenada no servidor do SQL.
+Carrega um Banco de dados que estão armazenada no servidor do SQL do pacote.
 }
 \note{
-Vale observar que ao ativar essa função o servidor do banco de dados será
-aberta e com isso, não se esqueça de desconectar do servidor.
+Vale observar que ao ativar essa função, o servidor SQL do banco de dados será
+aberta.
 }
 \examples{
 DB_Rice('DB_Base') |> head()

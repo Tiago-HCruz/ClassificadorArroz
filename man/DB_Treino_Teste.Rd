@@ -18,7 +18,7 @@ DB_Treino_Teste(semente, df, porc_train, porc_test)
 deve ser realocado no banco de dados treino.}
 
 \item{porc_test:}{a porcentagem de observações do banco de dados que
-deve ser realocado no banco de dados test.}
+deve ser realocado no banco de dados teste.}
 }
 \value{
 Retorna uma lista que contém dois banco de dados, treino e teste.
@@ -26,7 +26,7 @@ Retorna uma lista que contém dois banco de dados, treino e teste.
 \description{
 Essa função tem como objetivo de subdividir o banco de dados original em dois,
 Banco de dados treino e teste. Alias, vale reparar que deve-se definir a
-porcentagem de dados base deve ser colocadas nos dois subconjunto de dados.
+porcentagem de dados que deve ser colocadas nos dois subconjunto de dados.
 }
 \examples{
 DB_Treino_Teste(2024, DB_Base |> head(50), 0.8, 0.2)
