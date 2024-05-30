@@ -2,8 +2,10 @@
 
 O Pacote tem o intuito de auxiliar na demonstração e investigação dos modelos da Análise Descritiva Linear (LDA), Análise Descritiva Quadrática (QDA) e Regressão Logística para classificar a classe do arroz de acordo com as suas variáveis de medidas em pixels. Desse modo, o pacote traz consigo um banco de dados base com observações do arroz e funções que obtém um subconjunto do mesmo, dividindo o banco de dados em Treino e Teste, além disso, traz contigo diversos exemplos que podem ser  utilizados nesse banco de dados.
 
+## Intalação do Pacote
 O pacote pode ser instalado no software R pelo comando "devtools::install_github("Tiago-HCruz/PGVendasVG", force = TRUE)"
 
+## Banco de Dados
 Para esse pacote, foi utilizada o banco de dados "Rice (Cammeo and Osmancik)" que pode-se encontrar na seguinte referência logo abaixo:
 Rice (Cammeo and Osmancik). (2019). UCI Machine Learning Repository. https://doi.org/10.24432/C5MW4Z.
 
