@@ -20,5 +20,8 @@ Dessa maneira, a seguir segue as definições das variaveis:
 * **Perímetro**: Calculo da circunferência calculada pela distância entre os pixels ao redor dos limites do grão de arroz.
 
 ## Funções 
+Nesse pacote foi criado funções para auxiliar na analise dos modelos a classificar o arroz 
+* **DB_Rice:** Carrega um Banco de dados que estão armazenada no servidor do SQL do pacote.
+* **DB_Treino_Teste:** Essa função tem como objetivo de subdividir o banco de dados original em dois, Banco de dados treino e teste. Alias, vale reparar que deve-se definir a porcentagem de dados que deve ser colocadas nos dois subconjunto de dados.
 
 ## Exemplos
