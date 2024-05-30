@@ -1,9 +1,9 @@
 Package: ClassificadorArroz
 Type: Package
-Title: Classificando o Arroz 
+Title: Modelos que classifica o Arroz 
 Version: 0.1.0
 Author: person("Tiago Cruz", email = "tihendacruz@gmail.com", role = c("aut", "cre")) 
-Description: Pacote com o intuito de classificar o arroz com métodos estatísticos 
+Description: O Pacote tem o intuito de auxiliar na demonstração e investigação dos modelos da Análise Discriminante Linear (LDA), Análise Discriminante Quadrática (QDA) e Regressão Logística para classificar a classe do arroz de acordo com as suas variáveis de medidas em pixels. Desse modo, o pacote traz consigo um banco de dados base com observações do arroz e funções que obtém um subconjunto do mesmo, dividindo o banco de dados em Treino e Teste.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
