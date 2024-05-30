@@ -8,11 +8,11 @@ Para esse pacote, foi utilizada o banco de dados "Rice (Cammeo and Osmancik)" qu
 Rice (Cammeo and Osmancik). (2019). UCI Machine Learning Repository. https://doi.org/10.24432/C5MW4Z.
 
 Dessa maneira, a seguir segue as definições das variaveis:
-* Area: o número de pixels dentro dos limites do grão de arroz
-* Area_Convexa:  a contagem de pixels da menor casca convexa da região formada pelo grão de arroz.
-* Classe: Qual classificação o arroz pertence, Cammeo ou Osmancik.
-* Excentricidade: Mede o quão redonda é a elipse do grão de arroz.
-* Extensao: proporção entre a região formada pelo grão de arroz e a caixa delimitadora.
-* Maior_Comprimento: A distancia mais longa que pode ser traçada no grão de arroz, ou seja, a altura.
-* Menor_Comprimento: A distancia menos longa que pode ser traçada no grão de arroz, ou seja, o comprimento.
-* Perímetro: Calculo da circunferência calculada pela distância entre os pixels ao redor dos limites do grão de arroz.
+* **Area**: o número de pixels dentro dos limites do grão de arroz
+* **Area_Convexa**:  a contagem de pixels da menor casca convexa da região formada pelo grão de arroz.
+* **Classe**: Qual classificação o arroz pertence, Cammeo ou Osmancik.
+* **Excentricidade**: Mede o quão redonda é a elipse do grão de arroz.
+* **Extensao**: proporção entre a região formada pelo grão de arroz e a caixa delimitadora.
+* **Maior_Comprimento**: A distancia mais longa que pode ser traçada no grão de arroz, ou seja, a altura.
+* **Menor_Comprimento**: A distancia menos longa que pode ser traçada no grão de arroz, ou seja, o comprimento.
+* **Perímetro**: Calculo da circunferência calculada pela distância entre os pixels ao redor dos limites do grão de arroz.
