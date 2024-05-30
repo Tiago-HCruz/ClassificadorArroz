@@ -9,7 +9,7 @@ O pacote pode ser instalado no software R pelo comando `devtools::install_github
 Para esse pacote, foi utilizada o banco de dados "Rice (Cammeo and Osmancik)" que pode-se encontrar na seguinte referência logo abaixo:
 Rice (Cammeo and Osmancik). (2019). UCI Machine Learning Repository. https://doi.org/10.24432/C5MW4Z.
 
-Dessa maneira, a seguir segue as definições das variaveis:
+Dessa maneira, a seguir segue as definições das variaveis:  
 * **Area**: o número de pixels dentro dos limites do grão de arroz
 * **Area_Convexa**:  a contagem de pixels da menor casca convexa da região formada pelo grão de arroz.
 * **Classe**: Qual classificação o arroz pertence, Cammeo ou Osmancik.
