@@ -11,17 +11,18 @@ Rice (Cammeo and Osmancik). (2019). UCI Machine Learning Repository. https://doi
 
 Dessa maneira, a seguir segue as definições das variaveis:  
 * **Area**: o número de pixels dentro dos limites do grão de arroz
-* **Area_Convexa**:  a contagem de pixels da menor casca convexa da região formada pelo grão de arroz.
-* **Classe**: Qual classificação o arroz pertence, Cammeo ou Osmancik.
+* **Area_Convexa:**  a contagem de pixels da menor casca convexa da região formada pelo grão de arroz.
+* **Classe:** Qual classificação o arroz pertence, Cammeo ou Osmancik.
 * **Excentricidade**: Mede o quão redonda é a elipse do grão de arroz.
-* **Extensao**: proporção entre a região formada pelo grão de arroz e a caixa delimitadora.
-* **Maior_Comprimento**: A distancia mais longa que pode ser traçada no grão de arroz, ou seja, a altura.
-* **Menor_Comprimento**: A distancia menos longa que pode ser traçada no grão de arroz, ou seja, o comprimento.
-* **Perímetro**: Calculo da circunferência calculada pela distância entre os pixels ao redor dos limites do grão de arroz.
+* **Extensao:** proporção entre a região formada pelo grão de arroz e a caixa delimitadora.
+* **Maior_Comprimento:** A distancia mais longa que pode ser traçada no grão de arroz, ou seja, a altura.
+* **Menor_Comprimento:** A distancia menos longa que pode ser traçada no grão de arroz, ou seja, o comprimento.
+* **Perímetro:** Calculo da circunferência calculada pela distância entre os pixels ao redor dos limites do grão de arroz.
 
 ## Funções 
 Nesse pacote foi criado funções para auxiliar na analise dos modelos a classificar o arroz, seja as funções a seguir: 
 * **DB_Rice:** Carrega um Banco de dados que estão armazenada no servidor do SQL do pacote.
 * **DB_Treino_Teste:** Essa função tem como objetivo de subdividir o banco de dados original em dois, Banco de dados treino e teste. Alias, vale reparar que deve-se definir a porcentagem de dados que deve ser colocadas nos dois subconjunto de dados.
+* **Server_Rice:** Uma função que abre o servidor SQL que por sua vez, existe diversos banco de dados sobre o Arroz.
 
 ## Exemplos
