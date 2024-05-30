@@ -3,7 +3,7 @@
 #' @description
 #' Essa função tem como objetivo de subdividir o banco de dados original em dois,
 #' Banco de dados treino e teste. Alias, vale reparar que deve-se definir a
-#' porcentagem de dados base deve ser colocadas nos dois subconjunto de dados.
+#' porcentagem de dados que deve ser colocadas nos dois subconjunto de dados.
 #'
 #' @title Banco de dados Treino e Teste.
 #'
@@ -12,7 +12,7 @@
 #' @param porc_train: a porcentagem de observações do banco de dados que
 #' deve ser realocado no banco de dados treino.
 #' @param porc_test: a porcentagem de observações do banco de dados que
-#' deve ser realocado no banco de dados test.
+#' deve ser realocado no banco de dados teste.
 #'
 #' @format Uma lista contendo dois banco de dados.
 #'
