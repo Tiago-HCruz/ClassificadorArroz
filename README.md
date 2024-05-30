@@ -18,3 +18,7 @@ Dessa maneira, a seguir segue as definições das variaveis:
 * **Maior_Comprimento**: A distancia mais longa que pode ser traçada no grão de arroz, ou seja, a altura.
 * **Menor_Comprimento**: A distancia menos longa que pode ser traçada no grão de arroz, ou seja, o comprimento.
 * **Perímetro**: Calculo da circunferência calculada pela distância entre os pixels ao redor dos limites do grão de arroz.
+
+## Funções 
+
+## Exemplos
