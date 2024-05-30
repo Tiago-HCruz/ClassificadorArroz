@@ -20,6 +20,8 @@ Dessa maneira, a seguir segue as definições das variaveis:
 * **Menor_Comprimento:** A distancia menos longa que pode ser traçada no grão de arroz, ou seja, o comprimento.
 * **Perímetro:** Calculo da circunferência calculada pela distância entre os pixels ao redor dos limites do grão de arroz.
 
+*Obs.: Para auxiliar a trabalhar o banco de dados, pode-se utilizar o objeto `yaml_listas` que contém listado os banco de dados e as variaveis*
+
 ## Funções 
 Nesse pacote foi criado funções para auxiliar na analise dos modelos a classificar o arroz, seja as funções a seguir: 
 * **DB_Rice:** Carrega um Banco de dados que estão armazenada no servidor do SQL do pacote.
@@ -28,10 +30,10 @@ Nesse pacote foi criado funções para auxiliar na analise dos modelos a classif
 
 ## Exemplos
 No pacote pode se encontrar exemplos para auxiliar ou mesmo motivar em algumas ideias.
-
+* **CrossOver_EMA:** Erro Médio Quadratico dos modelos LDA, QDA e Regressão Linear. Obtido pelo método da Validação cruzada. 
 * **Quant_Rice:** Quantidade de Arroz no banco de dados geral, treino e teste.
 * **Rice_Teste:** Banco de dados teste, utilizado para modelar de acordo com a método. Para obter, foi utilizado a semenente "2024" retirado aleatoriamente 20% dos dados original. 
 * **Rice_Treino:** Banco de dados treino, utilizado para obter resultado apartir do modelagem feito no banco de dados teste. Para obter, foi utilizado a semenente "2024" retirado aleatoriamente 80% dos dados original, vale ressaltar que as observações não se repeter do banco de dados teste. 
 * **tab_LDA:** Matriz confusão do modelo Analise Discriminante Linear.
 * **tab_QDA:** Matriz confusão do modelo Analise Discriminante Quadratica.
-* **CrossOver_EMA:** Erro Médio Quadratico dos modelos LDA, QDA e Regressão Linear. Obtido pelo método da Validação cruzada. 
+
