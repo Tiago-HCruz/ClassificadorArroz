@@ -1,6 +1,6 @@
 # Classificador de Arroz
 
-O Pacote tem o intuito de auxiliar na demonstração e investigação dos modelos da Análise Discriminante Linear (LDA), Análise Discriminante Quadrática (QDA) e Regressão Logística para classificar a classe do arroz de acordo com as suas variáveis de medidas em pixels. Desse modo, o pacote traz consigo um banco de dados base com observações do arroz e funções que obtém um subconjunto do mesmo, dividindo o banco de dados em Treino e Teste, além disso, traz contigo diversos exemplos que podem ser  utilizados nesse banco de dados.
+O Pacote tem o intuito de auxiliar na demonstração e investigação dos modelos da Análise Discriminante Linear (LDA), Análise Discriminante Quadrática (QDA) e Regressão Logística para classificar a classe do arroz de acordo com as suas variáveis de medidas em pixels. Desse modo, o pacote traz consigo um banco de dados base com observações do arroz e funções que obtém um subconjunto do mesmo, dividindo o banco de dados em Treino e Teste, além disso, traz contigo diversos exemplos que podem ser utilizados como inspiração nesse banco de dados.
 
 ## Instalação do Pacote
 O pacote pode ser instalado no software R pelo comando `devtools::install_github("Tiago-HCruz/PGVendasVG", force = TRUE)`
@@ -20,7 +20,7 @@ Dessa maneira, a seguir segue as definições das variáveis:
 * **Menor_Comprimento:** A distância menos longa que pode ser traçada no grão de arroz, ou seja, o comprimento.
 * **Perímetro:** Cálculo da circunferência calculada pela distância entre os pixels ao redor dos limites do grão de arroz.
 
-*Obs.: Para auxiliar a trabalhar o banco de dados, pode-se utilizar o objeto `yaml_listas` que contém listado os banco de dados e as variáveis*
+*Obs.: Para auxiliar a trabalhar com o banco de dados, pode-se utilizar o objeto `yaml_listas` que contém listado os banco de dados e as variáveis*
 
 ## Funções 
 Nesse pacote foi criado funções para auxiliar na análise dos modelos a classificar o arroz, seja as funções a seguir: 
